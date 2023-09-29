@@ -10,6 +10,7 @@ import com.velocitypowered.api.event.Subscribe;
 import com.velocitypowered.api.plugin.Plugin;
 import com.velocitypowered.api.proxy.ProxyServer;
 import me.yellowbear.uwuauth.commands.RegisterCommand;
+import me.yellowbear.uwuauth.models.enums.StatusCode;
 import org.slf4j.Logger;
 
 import java.util.Map;
@@ -41,5 +42,9 @@ public final class UwuAuth {
         BrigadierCommand registerCommand = RegisterCommand.createBrigadierCommand(_proxy);
 
         commandManager.register(commandMeta, registerCommand);
+    }
+
+    private StatusCode registerCommands() {
+        return StatusCode.NOT_IMPLEMENTED;
     }
 }
