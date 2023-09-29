@@ -2,6 +2,7 @@ package me.yellowbear.uwuauth.models;
 
 import me.yellowbear.uwuauth.models.enums.AuthResult;
 import me.yellowbear.uwuauth.models.enums.StatusCode;
+import me.yellowbear.uwuauth.models.requests.LogoutRequest;
 
 public class AuthRequestResult {
     public StatusCode statusCode;
