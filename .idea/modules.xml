@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/uwuAuth.iml" filepath="$PROJECT_DIR$/uwuAuth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/uwuAuth.main.iml" filepath="$PROJECT_DIR$/.idea/modules/uwuAuth.main.iml" />
     </modules>
   </component>
 </project>
