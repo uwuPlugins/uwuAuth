@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/me.yellowbear.uwuAuth.main.iml" filepath="$PROJECT_DIR$/.idea/modules/me.yellowbear.uwuAuth.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/uwuAuth.iml" filepath="$PROJECT_DIR$/uwuAuth.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/uwuAuth.main.iml" filepath="$PROJECT_DIR$/.idea/modules/uwuAuth.main.iml" />
     </modules>

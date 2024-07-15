@@ -12,14 +12,13 @@ import org.slf4j.Logger;
         id = "uwuauth",
         name = "uwuAuth",
         version = "1.0-SNAPSHOT",
+        description = "",
         authors = ["yellowbear"]
 )
-class UwuAuth {
+class UwuAuth @Inject constructor(logger: Logger, server: ProxyServer) {
     private val logger: Logger
     private val server: ProxyServer
-
-    @Inject
-    constructor(logger: Logger, server: ProxyServer) {
+    init {
         this.logger = logger
         this.server = server
     }
