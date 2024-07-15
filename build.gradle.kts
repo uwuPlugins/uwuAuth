@@ -20,6 +20,7 @@ dependencies {
     api(libs.org.jetbrains.kotlin.kotlin.stdlib.jdk8)
     testImplementation(libs.org.jetbrains.kotlin.kotlin.test)
     compileOnly(libs.com.velocitypowered.velocity.api)
+    kapt(libs.com.velocitypowered.velocity.api)
     implementation(kotlin("stdlib-jdk8"))
 }
 

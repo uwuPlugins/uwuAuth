@@ -25,6 +25,7 @@ class UwuAuth @Inject constructor(logger: Logger, server: ProxyServer) {
 
     @Subscribe
     fun onProxyInitialization(event: ProxyInitializeEvent) {
+        logger.info("test")
         server.eventManager.register(this, PlayerEventService())
     }
 }
